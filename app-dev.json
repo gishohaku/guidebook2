@@ -24,7 +24,7 @@
   },
   "templates": ["images"],
   "catalog": {
-    "PREDEF": ["preface.re"],
+    "PREDEF": ["preface.re", "circles.re"],
     "CHAPS": [
       "chap-teihen.md",
       "chap-miti843.md",
