@@ -24,10 +24,8 @@
   },
   "templates": ["images"],
   "catalog": {
-    "PREDEF": ["preface.re"],
+    "PREDEF": ["preface.re", "circles.re", "circle-appeals.re"],
     "CHAPS": [
-      "circles.re",
-      "circle-appeals.re",
       "chap-teihen.md",
       "chap-miti843.md",
       "chap-matsui.md",
