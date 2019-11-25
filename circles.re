@@ -58,6 +58,7 @@
 \includegraphics[width=0.2\linewidth]{images/circles/2F-こ08.png}
 \includegraphics[width=0.2\linewidth]{images/circles/2F-こ09.png}
 \end{center}
+//}
 
 == 3F
 
@@ -106,3 +107,4 @@
 \includegraphics[width=0.2\linewidth]{images/circles/3F-た06.png}
 \includegraphics[width=0.2\linewidth]{images/circles/3F-た07.png}
 \end{center}
+//}

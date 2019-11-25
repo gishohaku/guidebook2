@@ -89,3 +89,4 @@
 \includegraphics[width=1.0\linewidth]{images/circle-appeals/3F-た05.png}
 \includegraphics[width=1.0\linewidth]{images/circle-appeals/3F-た06.png}
 \end{center}
+//}
