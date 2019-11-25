@@ -1,9 +1,8 @@
 = サークル一覧
 
-== 2F
-
 //embed{
 \begin{center}
+
 \includegraphics[width=0.2\linewidth]{images/circles/2F-あ01.png}
 \includegraphics[width=0.2\linewidth]{images/circles/2F-あ02.png}
 \includegraphics[width=0.2\linewidth]{images/circles/2F-あ03.png}
@@ -57,13 +56,8 @@
 \includegraphics[width=0.2\linewidth]{images/circles/2F-こ07.png}
 \includegraphics[width=0.2\linewidth]{images/circles/2F-こ08.png}
 \includegraphics[width=0.2\linewidth]{images/circles/2F-こ09.png}
-\end{center}
-//}
 
-== 3F
 
-//embed{
-\begin{center}
 \includegraphics[width=0.2\linewidth]{images/circles/3F-さ00.png}
 \includegraphics[width=0.2\linewidth]{images/circles/3F-さ01.png}
 \includegraphics[width=0.2\linewidth]{images/circles/3F-さ02.png}
