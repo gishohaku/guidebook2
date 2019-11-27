@@ -1,4 +1,6 @@
 //embed{
     \clearpage
-    \pagestyle{plain}
+    \fancyhead{}
+    \fancyfoot{}
+    \fancyfoot[LE,RO]{\thepage}
 //}
