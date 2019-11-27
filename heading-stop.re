@@ -1,4 +1,4 @@
 //embed{
     \clearpage
-    \pagestyle{empty}
+    \pagestyle{plain}
 //}
