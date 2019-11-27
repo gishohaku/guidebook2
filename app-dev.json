@@ -26,8 +26,10 @@
   "catalog": {
     "PREDEF": ["preface.re"],
     "CHAPS": [
+      "heading-stop.re",
       "circles.re",
       "circle-appeals.re",
+      "heading-start.re",
       "chap-teihen.md",
       "chap-miti843.md",
       "chap-matsui.md",
