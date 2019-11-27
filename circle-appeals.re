@@ -1,17 +1,26 @@
 = サークルアピール一覧
 
 //embed{
-\clearpage{\pagestyle{empty}}
+\clearpage
+\pagestyle{empty}
 \begin{center}
 
 \includegraphics[width=0.9\linewidth]{images/circle-appeals/2F-あ03.jpg}
+\vspace{10pt}
 \includegraphics[width=0.9\linewidth]{images/circle-appeals/2F-あ04.jpg}
+\vspace{10pt}
 \includegraphics[width=0.9\linewidth]{images/circle-appeals/2F-あ05.jpg}
+\vspace{5pt}
 \includegraphics[width=0.9\linewidth]{images/circle-appeals/2F-あ06.jpg}
+\vspace{5pt}
 \includegraphics[width=0.9\linewidth]{images/circle-appeals/2F-あ07.jpg}
+\vspace{10pt}
 \includegraphics[width=0.9\linewidth]{images/circle-appeals/2F-い01.jpg}
+\vspace{10pt}
 \includegraphics[width=0.9\linewidth]{images/circle-appeals/2F-い02.jpg}
+\vspace{10pt}
 \includegraphics[width=0.9\linewidth]{images/circle-appeals/2F-う01.jpg}
+\vspace{10pt}
 \includegraphics[width=0.9\linewidth]{images/circle-appeals/2F-う02.jpg}
 \includegraphics[width=0.9\linewidth]{images/circle-appeals/2F-う03.jpg}
 \includegraphics[width=0.9\linewidth]{images/circle-appeals/2F-う04.jpg}
