@@ -1,6 +1,5 @@
 //embed{
     \clearpage
-    \fancyhead{}
-    \fancyfoot{}
-    \fancyfoot[LE,RO]{\thepage}
+    \pagestyle{empty}
+    \fancyfoot[C]{\thepage}
 //}
