@@ -1,6 +1,6 @@
 //embed{
     \clearpage
-    \pagestyle{plain}
     \fancyhead{}
     \fancyfoot[C]{\thepage}
+    \headrulewidth 0pt
 //}
