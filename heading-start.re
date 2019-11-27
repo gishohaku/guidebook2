@@ -1,0 +1,4 @@
+//embed{
+    \clearpage
+    \pagestyle{headings}
+//}
