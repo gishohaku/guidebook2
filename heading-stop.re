@@ -1,6 +1,5 @@
 //embed{
     \clearpage
-    \fancyhead[LE]{\gtfamily\sffamily\bfseries\upshape \leftmark}%
-    \fancyhead[RO]{\gtfamily\sffamily\bfseries\upshape \rightmark}%
+    \fancyhead{}
     \fancyfoot[C]{\thepage}
 //}
