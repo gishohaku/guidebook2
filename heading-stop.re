@@ -2,5 +2,5 @@
     \clearpage
     \fancyhead{}
     \fancyfoot[C]{\thepage}
-    \headrulewidth 0pt
+    \renewcommand{\headrulewidth}{0pt}
 //}
