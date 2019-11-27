@@ -1,7 +1,7 @@
 = サークルアピール一覧
 
 //embed{
-\clearpage{\thispagestyle{plainhead}}
+\clearpage{\thispagestyle{plain}}
 \begin{center}
 
 \includegraphics[width=1.0\linewidth]{images/circle-appeals/2F-あ03.jpg}
