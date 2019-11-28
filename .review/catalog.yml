@@ -1,0 +1,22 @@
+PREDEF:
+  - preface.re
+CHAPS:
+  - heading-stop.re
+  - circles.re
+  - circle-appeals.re
+  - heading-start.re
+  - chap-teihen.re
+  - chap-miti843.re
+  - chap-matsui.re
+  - chap-printflyer.re
+  - chap-blog.re
+  - chap-hallsetup.re
+  - chap-haichi.re
+  - chap-guidebook.re
+  - chap-natlangsyntax.re
+  - chap-kihonjoho.re
+  - gishohaku-graat.re
+  - chap-sakura.re
+POSTDEF:
+  - contributors.re
+  - postscript.re

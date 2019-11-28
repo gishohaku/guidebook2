@@ -1,0 +1,21 @@
+bookname: Guidebook2
+booktitle: ガイドブック2
+aut: []
+language: ja
+toc: true
+rights: (C) 2019　技書博事務局
+colophon: true
+history:
+  - - 2019-xx-xx xxxxxx
+prt: 株式会社　しまや出版
+pbl: 親方Project
+edt: 親方Project
+secnolevel: 3
+titlepage: true
+review_version: 3
+texstyle:
+  - reviewmacro
+texdocumentclass:
+  - review-jsbook
+  - >-
+    media=ebook,paper=b5,serial_pagination=true,hiddenfolio=nikko-pc,openany,fontsize=10pt,baselineskip=15.4pt,line_length=44zw,number_of_lines=40,head_space=18mm,headsep=3mm,headheight=5mm,footskip=10mm
