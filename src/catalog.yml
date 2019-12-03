@@ -2,11 +2,15 @@ PREDEF:
   - chap-preface.re
 
 CHAPS:
+  - chap-title-info.re:
+    - chap-info-about.re
+    - chap-info-coc.re
+    - chap-info-sponsors.re
+
   - chap-title-circle.re:
-    - chap-heading-stop.re
-    - chap-circles.re
+    - chap-circle-list.re
+    - chap-circle-layout.re
     - chap-circle-appeals.re
-    - chap-heading-start.re
 
   - chap-title-sponsor.re:
     - chap-sponsor-graat.re
