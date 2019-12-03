@@ -3,12 +3,11 @@ PREDEF:
 
 CHAPS:
   - chap-title-circle.re:
-    - chap-heading-stop.re
     - chap-circles.re
     - chap-circle-appeals.re
-    - chap-heading-start.re
 
   - chap-title-sponsor.re:
+    - chap-sponsor-index.re
     - chap-sponsor-graat.re
     - chap-sponsor-sakura.re
 

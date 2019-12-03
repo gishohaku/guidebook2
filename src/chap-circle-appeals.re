@@ -8,6 +8,8 @@
 ジャンルごとに配置していますので、お目当てのジャンルはもちろんのこと、他のジャンルもチェックしてください。
 きっとすてきな出会いがあるでしょう。
 
+//pagebreak
+
 //embed{
     \begin{center}
         \includegraphics[width=0.69\paperwidth,keepaspectratio]{images/circle-appeals/2F-あ03.pdf}\vspace{10pt}
