@@ -13,6 +13,7 @@ CHAPS:
     - chap-circle-appeals.re
 
   - chap-title-sponsor.re:
+    - chap-sponsor-grasys.re
     - chap-sponsor-graat.re
     - chap-sponsor-sakura.re
 
