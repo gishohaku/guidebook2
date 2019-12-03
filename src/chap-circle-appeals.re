@@ -88,6 +88,7 @@
         \includegraphics[width=0.69\paperwidth,keepaspectratio]{images/chap-circle-appeals/3F-せ03.pdf}\vspace{10pt}
         \includegraphics[width=0.69\paperwidth,keepaspectratio]{images/chap-circle-appeals/3F-せ04.pdf}\vspace{10pt}
         \includegraphics[width=0.69\paperwidth,keepaspectratio]{images/chap-circle-appeals/3F-せ05.pdf}\vspace{10pt}
+        \includegraphics[width=0.69\paperwidth,keepaspectratio]{images/chap-circle-appeals/3F-せ06.pdf}\vspace{10pt}
         \includegraphics[width=0.69\paperwidth,keepaspectratio]{images/chap-circle-appeals/3F-そ01.pdf}\vspace{10pt}
         \includegraphics[width=0.69\paperwidth,keepaspectratio]{images/chap-circle-appeals/3F-そ02.pdf}\vspace{10pt}
         \includegraphics[width=0.69\paperwidth,keepaspectratio]{images/chap-circle-appeals/3F-そ05.pdf}\vspace{10pt}
