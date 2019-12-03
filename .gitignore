@@ -1,3 +1,4 @@
 node_modules/
 .review/*.pdf
+src/*.pdf
 .DS_Store
