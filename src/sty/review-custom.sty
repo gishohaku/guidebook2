@@ -114,3 +114,10 @@
 \def\toclevel@paragraph{4}
 \def\toclevel@subparagraph{5}
 }
+
+%APPENDIX前に見出しレベルを下げる
+\def\reviewappendixhook{
+  \renewcommand{\chaptermark}[1]{\markboth{\appendixname\thechapter~##1}{}}
+  \reviewappendix
+  \downtoclevel
+}

@@ -1,3 +1,0 @@
-//embed[latex]{
-\downtoclevel
-//}

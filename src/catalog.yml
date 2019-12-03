@@ -29,8 +29,6 @@ CHAPS:
     - chap-caravan-natlangsyntax.re
     - chap-caravan-kihonjoho.re
 
-  - chap-reset.re
-
 POSTDEF:
   - chap-contributors.re
   - chap-ads.re
