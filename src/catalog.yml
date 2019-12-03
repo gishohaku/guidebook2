@@ -33,6 +33,7 @@ CHAPS:
   - chap-title-caravan.re:
     - chap-caravan-natlangsyntax.re
     - chap-caravan-kihonjoho.re
+    - chap-caravan-flutter.re
 
 POSTDEF:
   - chap-contributors.re
