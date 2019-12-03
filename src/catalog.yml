@@ -23,6 +23,7 @@ CHAPS:
     - chap-event-teihen.re
     - chap-event-miti843.re
     - chap-event-matsui.re
+    - chap-event-design.re
 
   - chap-title-caravan.re:
     - chap-caravan-natlangsyntax.re
@@ -32,3 +33,4 @@ CHAPS:
 
 POSTDEF:
   - chap-contributors.re
+  - chap-ads.re
