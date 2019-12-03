@@ -1,0 +1,36 @@
+PREDEF:
+  - chap-preface.re
+
+CHAPS:
+  - chap-title-circle.re:
+    - chap-heading-stop.re
+    - chap-circles.re
+    - chap-circle-appeals.re
+    - chap-heading-start.re
+
+  - chap-title-sponsor.re:
+    - chap-sponsor-graat.re
+    - chap-sponsor-sakura.re
+
+  - chap-title-staff.re:
+    - chap-staff-printflyer.re
+    - chap-staff-blog.re
+    - chap-staff-hallsetup.re
+    - chap-staff-haichi.re
+    - chap-staff-guidebook.re
+
+  - chap-title-event.re:
+    - chap-event-teihen.re
+    - chap-event-miti843.re
+    - chap-event-matsui.re
+    - chap-event-design.re
+
+  - chap-title-caravan.re:
+    - chap-caravan-natlangsyntax.re
+    - chap-caravan-kihonjoho.re
+
+  - chap-reset.re
+
+POSTDEF:
+  - chap-contributors.re
+  - chap-ads.re
