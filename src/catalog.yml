@@ -8,11 +8,11 @@ CHAPS:
     - chap-info-sponsors.re
 
   - chap-title-circle.re:
-    - chap-circles.re
+    - chap-circle-list.re
+    - chap-circle-layout.re
     - chap-circle-appeals.re
 
   - chap-title-sponsor.re:
-    - chap-sponsor-index.re
     - chap-sponsor-graat.re
     - chap-sponsor-sakura.re
 

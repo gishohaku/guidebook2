@@ -240,7 +240,7 @@
 
 //embed{
     \begin{center}
-        \includegraphics[width=1.0\linewidth]{images/circles/2F-circles-1.png}
+        \includegraphics[width=1.0\linewidth]{images/chap-circle-list/2F-circles-1.png}
     \end{center}
 //}
 
@@ -248,7 +248,7 @@
 
 //embed{
     \begin{center}
-        \includegraphics[width=1.0\linewidth]{images/circles/2F-circles-2.png}
+        \includegraphics[width=1.0\linewidth]{images/chap-circle-list/2F-circles-2.png}
     \end{center}
 //}
 
@@ -256,7 +256,7 @@
 
 //embed{
     \begin{center}
-        \includegraphics[width=1.0\linewidth]{images/circles/3F-circles-1.png}
+        \includegraphics[width=1.0\linewidth]{images/chap-circle-list/3F-circles-1.png}
     \end{center}
 //}
 
@@ -264,6 +264,6 @@
 
 //embed{
     \begin{center}
-        \includegraphics[width=1.0\linewidth]{images/circles/3F-circles-2.png}
+        \includegraphics[width=1.0\linewidth]{images/chap-circle-list/3F-circles-2.png}
     \end{center}
 //}
