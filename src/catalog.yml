@@ -4,6 +4,7 @@ PREDEF:
 CHAPS:
   - chap-title-info.re:
     - chap-info-about.re
+    - chap-info-reading.re
     - chap-info-coc.re
     - chap-info-sponsors.re
 
@@ -24,12 +25,14 @@ CHAPS:
     - chap-staff-guidebook.re
 
   - chap-title-event.re:
+    - chap-event-about.re
     - chap-event-teihen.re
     - chap-event-miti843.re
     - chap-event-matsui.re
     - chap-event-design.re
 
   - chap-title-caravan.re:
+    - chap-caravan-about.re
     - chap-caravan-natlangsyntax.re
     - chap-caravan-kihonjoho.re
 
