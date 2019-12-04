@@ -59,7 +59,7 @@ jsonPayload.code!="301"
 
 指標の注意点として、設定された@<b>{以降}に流入したログに対してのみ有効になります。過去に遡って指標を適用することはできませんので、ご注意ください。
 
-//image[image5][指標エディタ][scale=0.5]
+//image[image5][指標エディタ][scale=0.3]
 
 @<b>{※注意}
 
@@ -96,7 +96,7 @@ Loggingから出力された指標をMonitoringで扱うためには、最低1�
 
 Stackdriver Monitoring ダッシュボードの左のメニューより Alerting > Policies を選択し、Policies一覧画面の右上にある @<b>{Add Policy} ボタンを押します。以下の項目を入力することで、通知を設定できます。
 
-//image[table2][Alerting Policy設定内容][scale=0.5]
+//image[table2][Alerting Policy設定内容][scale=0.6]
 
 ==== Alerting - Condition
 それでは実際にConditionを設定します。例として、@<b>{200,301以外のログが1分間に30回以上出力されたら発報}を設定します。
