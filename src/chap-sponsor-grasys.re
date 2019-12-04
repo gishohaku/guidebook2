@@ -47,7 +47,9 @@ resource.type="gce_instance" AND
 logName="projects/<project_id> /logs/nginx-access" AND
 jsonPayload.code!="200" OR
 jsonPayload.code!="301"
-}
+//}
+
+<project_id>の部分はご自身のproject_idに置き換えてください。
 
 次に、指標エディタで指標名などを指定します。
 
@@ -66,5 +68,65 @@ Loggingから出力された指標をMonitoringで扱うためには、最低1�
 指標の設定完了後は一度404など200,301以外のレスポンスが返されるリクエストを該当サーバに投げ、Stackdriver Loggingにログが格納されていることを確認してください。
 
 === フィルタリングの基本的な表記
-　ログベースの指標の設定で良く使う表記をピックアップしました。その他の詳しくはlogging
-ドキュメントAdvanced logs queries を参照してください。
+
+ログベースの指標の設定で良く使う表記をピックアップしました。その他の詳しくはlogging ドキュメントAdvanced logs queries @<fn>{guide}を参照してください。
+
+//footnote[guide][https://cloud.google.com/logging/docs/view/advanced-queries]
+
+//image[table][よく使う表記]
+
+==== ログの保存期間
+　
+おおよそのログは保存期間が30日までで、それ以前のログは削除されます。30日以上の期間ログを保存したい場合は「エクスポートを作成」からGCS/BigQuery等へ保存設定を行ってください。
+
+=== Stackdriver Monitoring - 監視・通知設定
+
+最後に、Monitoringより監視・通知の設定を行います。
+
+==== Stackdriver Monitoring - 通知先設定
+監視設定では通知先が必要なため、先にSlackチャンネルを通知先として設定します。
+
+ 1. Monitoringダッシュボードのworkspace選択より「Workspace Settings」を選択
+ 2. Settings一覧より「Notifications」を選択し、SLACKタブを指定
+ 3. Add Slack Channelを選択し、通知したいSlackのworkspaceと連携 @<fn>{slack}
+
+//footnote[slack][退社するなどして連携を行ったSlackのアカウントが削除された場合は、Alertが発報されなくなります。Slackアカウントの運用にはご注意ください。] 
+
+==== Alerting Policy
+
+Stackdriver Monitoring ダッシュボードの左のメニューより Alerting > Policies を選択し、Policies一覧画面の右上にある Add Policy ボタンを押します。以下の項目を入力することで、通知を設定できます。
+
+==== Alerting - Condition
+それでは実際にConditionを設定します。例として、200,301以外のログが1分間に30回以上出力されたら発報を設定します。
+
+ 1. 項目ConditionsからAdd Conditionを選択
+ 2. TargetのResource TypeにGCE VM Instanceを指定
+ 3. Metricに logging/user/nginx_error (logging.googleapis.com/user/nginx_error) を指定
+ 4. Aggregatorにnoneを設定
+ 5. ConfigurationのThresholdに0.5を設定
+ 6. 他はデフォルトのまま
+ 7. save でconditionを保存
+
+//image[image3][target設定]
+//image[image4][Configuration設定]
+
+注意点としては、Thresholdで判定される値はper sec のため、1分間に30回以上の場合は0.5に設定する必要があります。condition保存後にPolicyの保存を行うことで、通知設定を完了します。
+
+==== Alert Test
+
+ロギング設定を行ったサーバにアクセスし、404などエラーを発生させ通知を確認します。
+
+//image[image1][通知例]
+
+=== Monitoring エージェントについて
+本章ではログの監視に説明を絞ったため事後の解説となりますが、Stackdriver Monitoringエージェントについても簡単に触れます。
+
+GCE VMインスタンスの監視項目はMonitoring API のメトリクス である程度の取得できますが、例えばメモリ使用率のようにメトリクスが存在しないため取得することが出来ない項目があります。そのような場合、Monitoringエージェントを導入することでAPIで取得できない監視項目を補うことが出来ます。また、サーバプロセス(例: nginx)の稼働状況を監視したい場合も、エージェントをインストールすることにより監視が可能になります。
+
+エージェントは collectd  にGCP連携のための設定を追加したものが使用されています。多くのミドルウェアは事前定義されているためそのままメトリクスを収集できますが、自社製サーバプログラムなどを監視したい場合などは別途カスタムメトリクスを作成する必要があります。
+
+== おわりに
+
+駆け足となりますが、Stackdriverによるログの監視の入り口についてふんわり説明しました。ログの監視は奥深く、ステータスだけではなくpath単位でのエラーの出現頻度を割り出したり、インスタンスだけではなくLoadbalancerをはじめとするマネージドサービスのログを元に応用することが出来ます。
+
+また、Stackdriverには他にも様々なプロダクトがありますので、障害監視をはじめアプリケーションのレスポンス改善など、開発・運用するサービスの品質向上にお役立ていただけますと幸いです。
