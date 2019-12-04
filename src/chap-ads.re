@@ -6,4 +6,5 @@
     \includepdf[pages=1,fitpaper=true]{images/ads/05_impressrd-izumi.pdf}
     \includepdf[pages=1,fitpaper=true]{images/ads/06_technobrain.pdf}
     \includepdf[pages=1,fitpaper=true]{images/ads/07_graat.pdf}
+    \includepdf[pages=1,fitpaper=true]{images/ads/08_ghelia.pdf}
 //}
