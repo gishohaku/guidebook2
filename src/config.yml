@@ -76,9 +76,9 @@ date: 2019-12-14
 history: [["2019-12-14 第二回 技術書同人誌博覧会"]]
 # 権利表記(配列で複数指定可)
 rights: (C) 2019 技術書同人誌博覧会 運営事務局
-# description: 説明
-# subject: 短い説明用タグ(配列で複数指定可)
-# type: 書籍のカテゴリーなど(配列で複数指定可)
+description: 第二回技術書同人誌博覧会の参加者に配布される公式ガイドブックです。参加サークルの紹介、協賛企業様や技術書イベント界隈などさまざまな方から寄稿いただいた記事が掲載されています。
+subject: 技書博２公式ガイドブック
+type: ["技術書", "合同誌", "技書博", "イベントガイドブック"]
 # format: メディアタイプおよび特徴(配列で複数指定可)
 # source: 出版物生成の重要なリソース情報(配列で複数指定可)
 # relation: 補助的リソース(配列で複数指定可)
@@ -320,7 +320,7 @@ texstyle: ["reviewmacro"]
 # LaTeX用のdocumentclassを指定する
 # オプションについてはsty/README.mdを参照
 # デフォルトは印刷用 media=print。電子配布版を作るには media=ebook とする
-texdocumentclass: ["review-jsbook", "media=ebook,paper=b5,serial_pagination=true,openany,fontsize=10pt,baselineskip=15.4pt,line_length=44zw,number_of_lines=38,head_space=25mm,headsep=10mm,headheight=6mm,footskip=15mm"]
+texdocumentclass: ["review-jsbook", "media=ebook,paper=b5,serial_pagination=true,openany,oneside,fontsize=10pt,baselineskip=15.4pt,line_length=44zw,number_of_lines=38,head_space=25mm,headsep=10mm,headheight=6mm,footskip=15mm"]
 
 #
 # LaTeX用のコマンドを指定する
