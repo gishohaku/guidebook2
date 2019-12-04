@@ -105,6 +105,8 @@ KANE(カネ)です。情報発信をベースに間接的にエンジニアを�
 関西でITエンジニア？IoTエンジニア！？やってます。リーサルウェポンという肩書をゲットできるように、日々頑張ってます！！
 }
 
+\clearpage
+
 \contributor{もっさん}{}{images/contributors/mossan.png}{
 クラウドエンジニア(見習い)やっています。自分が参加していたこともあり、高専ロボコン観戦が好きです。初参加ですのでご指導の程よろしくお願いします。
 }
@@ -121,28 +123,46 @@ KANE(カネ)です。情報発信をベースに間接的にエンジニアを�
 エンジニアカウンセラー / プログラミング歴25年超 / SES底辺ITエンジニア / エンジニアライフで情報発信中
 }
 
+\contributor{カウプラン}{@\_kauplan}{images/contributors/kauplan.png}{
+サークル「カウプラン機関極東支部」やってます。プリンセス・プリンシパルはいいぞ。
+}
+
+\contributor{オーニシ}{@onishi\_feuer}{images/contributors/onishi.png}{
+富山で個人事業をやっています。Webサイト「電脳世界」管理人。富山IT勉強会主催。
+}
+
+\clearpage
+
 \contributor{Taro Yamada}{@solareenlo}{images/contributors/solareenlo.png}{}
 
-\contributor{おっ}{}{images/contributors/gishohaku.png}{
+\contributorname{おっ}{}{
 通りすがりのひらがな
 }
 
-\contributor{たけのこ}{}{images/contributors/gishohaku.png}{
+\contributorname{たけのこ}{}{
 第一回に引き続きスタッフ参加です。みんなが楽しめる空間を作れるよう頑張ります。
 }
 
-\contributor{Azevinho}{}{images/contributors/gishohaku.png}{
+\contributorname{Azevinho}{}{
 大学生になり、将来的には技術者を志望しています。技術はまだまだ素人の域を出ておらず、未熟なところが多くあります。皆さんの技術を貪欲に吸収して行けたらと思います。
 }
 
-\contributor{和毛}{}{images/contributors/gishohaku.png}{
+\contributorname{和毛}{}{
 動物を愛でることが好き。特にグローネンダールとハスキーが好き。
 }
 
-\contributor{yonezo}{}{images/contributors/gishohaku.png}{}
+\contributorname{もち}{}{
+設計・モデリング・MBSEなどに興味があります。
+}
 
-\contributor{くま}{}{images/contributors/gishohaku.png}{}
+\contributorname{yonezo}{}{}
 
-\contributor{ぎょりー}{}{images/contributors/gishohaku.png}{}
+\contributorname{くま}{}{}
+
+\contributorname{ぎょりー}{}{}
+
+\contributorname{松井工務店}{}{}
+
+\contributorname{Pojoy}{}{}
 
 //}
