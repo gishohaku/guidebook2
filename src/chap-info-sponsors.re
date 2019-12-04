@@ -67,13 +67,13 @@
         \end{minipage}
     \end{tabular}
 \end{figure}
-\vspace{40pt}
+\vspace{30pt}
 
 \begin{figure}[htbp]
     \begin{tabular}{ccc}
         \begin{minipage}[t]{.33\hsize}
             \begin{center}
-                \includegraphics[width=0.6\linewidth]{images/chap-sponsor-index/technobrain.png}
+                \includegraphics[width=0.5\linewidth]{images/chap-sponsor-index/technobrain.png}
             \end{center}
             \small
                 キャラバンサポーター\newline
@@ -83,7 +83,7 @@
 
         \begin{minipage}[t]{.33\hsize}
             \begin{center}
-                \includegraphics[width=0.6\linewidth]{images/chap-sponsor-index/ghelia.png}
+                \includegraphics[width=0.5\linewidth]{images/chap-sponsor-index/ghelia.png}
             \end{center}
             \small
                 ガイドブックサポーター\newline
@@ -93,7 +93,7 @@
 
         \begin{minipage}[t]{.33\hsize}
             \begin{center}
-                \includegraphics[width=0.6\linewidth]{images/chap-sponsor-index/graat.png}
+                \includegraphics[width=0.5\linewidth]{images/chap-sponsor-index/graat.png}
             \end{center}
             \small
                 ガイドブックサポーター\newline
@@ -103,13 +103,13 @@
         \end{minipage}
     \end{tabular}
 \end{figure}
-\vspace{40pt}
+\vspace{15pt}
 
 \begin{figure}[htbp]
     \begin{tabular}{ccc}
         \begin{minipage}[t]{.33\hsize}
             \begin{center}
-                \includegraphics[width=0.6\linewidth]{images/chap-sponsor-index/sakura.png}
+                \includegraphics[width=0.5\linewidth]{images/chap-sponsor-index/sakura.png}
             \end{center}
             \small
                 ガイドブックサポーター\newline
@@ -119,7 +119,7 @@
 
         \begin{minipage}[t]{.33\hsize}
             \begin{center}
-                \includegraphics[width=0.6\linewidth]{images/chap-sponsor-index/impress_izumi.png}
+                \includegraphics[width=0.5\linewidth]{images/chap-sponsor-index/impress_izumi.png}
             \end{center}
             \small
                 懇親会サポーター\newline
@@ -130,12 +130,23 @@
 
         \begin{minipage}[t]{.33\hsize}
             \begin{center}
-                \includegraphics[width=0.6\linewidth]{images/chap-sponsor-index/shimaya.png}
+                \includegraphics[width=0.5\linewidth]{images/chap-sponsor-index/shimaya.png}
             \end{center}
             \small
                 プリンティングサポーター\newline
                 \sffamily
                     株式会社しまや出版
+        \end{minipage}
+    \end{tabular}
+\end{figure}
+\vspace{30pt}
+
+\begin{figure}[htbp]
+    \begin{tabular}{c}
+        \begin{minipage}[t]{1.0\hsize}
+            ツールスポンサー\newline
+            \sffamily
+                esa（esa.io）
         \end{minipage}
     \end{tabular}
 \end{figure}
