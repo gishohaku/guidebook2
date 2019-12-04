@@ -1,5 +1,5 @@
 //embed{
-    %%ˆóü‚Ígrasys”ñ•\¦
+    %%å°åˆ·æ™‚ã¯grasyséè¡¨ç¤º
     %%\includepdf[pages=1,fitpaper=true]{images/ads/01_grasys.pdf}
     \includepdf[pages=1,fitpaper=true]{images/ads/02_mediado.pdf}
     \includepdf[pages=1,fitpaper=true]{images/ads/03_sansan.pdf}
