@@ -125,7 +125,7 @@ We make @<strong>{some toy programs} in @<strong>{Haskell}. @<strong>{The curren
 ====[column] ケースF
 
 
-サークル参加は 有@<strong>{料} 。「通常スペース」 出展@<strong>{料}： @<i>{5000} @<strong>{円} 、.. 「ゆったりスペース」出展@<strong>{料} ： @<i>{8000} @<strong>{円} の @<i>{2} 種類あり、..申込期限は  @<u>{月}  @<u>{日}
+サークル参加は 有@<strong>{料} 。「通常スペース」 出展@<strong>{料}： @<i>{5000} @<strong>{円} 、.. 「ゆったりスペース」出展@<strong>{料} ： @<i>{8000} @<strong>{円} の @<i>{2} 種類あり、..申込期限は  @<i>{9} @<u>{月}  @<i>{22} @<u>{日}
 
 ====[/column] 
 
