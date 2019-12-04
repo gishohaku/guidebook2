@@ -11,7 +11,7 @@ StackdriverはGoogle社が提供するリソース・アプリケーションの
 === Stackdriver関連プロダクト
 2019年11月現在、GCPコンソールから選択できるStackdriver関連のプロダクトは Monitoring, 　Debug, Trace, Logging, Error Reporting, Profiler の6種類になります。
 
-本章ではこの中から@<b>{Logging}と`<b>{Monitoring}に焦点を当て解説します。
+本章ではこの中から@<b>{Logging}と@<b>{Monitoring}に焦点を当て解説します。
 
 ==== Logging
 GCPやAmazon Web Services(以下、AWS) からのログデータやイベントの格納、検索、分析、モニタリング、通知ができます。
@@ -127,7 +127,7 @@ GCE VMインスタンスの監視項目はMonitoring API のメトリクス@<fn>
 
 //footnote[metrix][https://cloud.google.com/monitoring/api/metrics_gcp#gcp-compute]
 
-エージェントは@<b>{collectd}@<fn>{6}にGCP連携のための設定を追加したものが使用されています。多くのミドルウェアは事前定義されているためそのままメトリクスを収集できますが、自社製サーバプログラムなどを監視したい場合などは別途カスタムメトリクスを作成する必要があります。
+エージェントは@<b>{collectd}@<fn>{collectd}にGCP連携のための設定を追加したものが使用されています。多くのミドルウェアは事前定義されているためそのままメトリクスを収集できますが、自社製サーバプログラムなどを監視したい場合などは別途カスタムメトリクスを作成する必要があります。
 
 //footnote[collectd][https://collectd.org/]
 
