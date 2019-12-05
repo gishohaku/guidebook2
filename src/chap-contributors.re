@@ -165,4 +165,6 @@ KANE(カネ)です。情報発信をベースに間接的にエンジニアを�
 
 \contributorname{Pojoy}{}{}
 
+\contributorname{なべけん}{}{}
+
 //}
