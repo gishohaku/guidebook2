@@ -37,7 +37,7 @@ VMインスタンスのログを集約するためには、Stackdriver Logging �
 
 本章では@<b>{google-fluentd-catch-all-config-structured}をインストールしたうえで解説を進めます。
 
-//footnote[log1][~/etc/google-fulentd/config.d/ 以下に追記することで独自形式のログも送ることが出来ます。]
+//footnote[log1][~/etc/google-fluentd/config.d/ 以下に追記することで独自形式のログも送ることが出来ます。]
 
 ==== ログベースの指標
 Stackdriver Monitoringと連携するルールの設定を行えます。今回設定する「@<b>{GCPインスタンスから出力されるnginxのログ}から@<b>{response_codeが200,301以外}をピックアップしたデータ」をモニタリングしたい場合は、GCPダッシュボード ログビューアより「高度なフィルタに変換」を選択し、下記設定のうえ「フィルタを送信」ボタンを押し決定します。
